@@ -1,0 +1,72 @@
+<!--
+    Title: javazon.html
+    Author: Mackenzie Lubben-Ortiz
+    Date: 09/22/2023
+    Description: Javazon App-->
+
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <title>WEB 231 - Enterprise JavaScript I</title>
+    
+        <link rel="stylesheet" type="text/css" href="../week-2/global.css" />
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="/week-7/Lubben-Ortiz-javazon.css"
+        />
+    
+        <!--Google fonts for Oswald-->
+        <link
+          href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+    
+      <body>
+        <div id="container">
+          <h1 class="app-header">Welcome to the Javazon App!</h1>
+    
+          <div id="txtMyNumber">
+            <div class="card">
+              <div class="card-title">Javazon Selection Form</div>
+              <div class="dropdown">
+                <div class="dropdown-content">
+                </div>
+                  <label for="text">Choose a listing:</label>
+
+                <select name="drop-down" id="favoriteList">
+                    <option value="select">--Select--</option>
+                    <option value="products">Products</option>
+                    <option value="services">Services</option>
+                    <option value="employees">Employees</option>
+                    
+                </select>
+                </div>
+    
+                <div class="form-field">
+                  <button onclick="pressed()" class="btn btn-primary full-width" id="btnDisplayListing">
+                    Display Listing
+                  </button>
+                  <h1 id="res"></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        
+        <p id="feedback"></p>
+    
+        <script src="/week-6/week-6.js">
+          
+        </script>
+    
+        <!--Return anchor tag with JavaScript-->
+        <a href="http://127.0.0.1:3000/week-1/index.html" class="return-home"
+          >Return</a
+        >
+      </body>
+    </html>
+    
