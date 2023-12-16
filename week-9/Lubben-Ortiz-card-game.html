@@ -1,0 +1,74 @@
+<!--
+    Title: card game.html
+    Author: Mackenzie Lubben-Ortiz
+    Date: 10/4/2023
+    Description: Card Game-->
+
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <title>WEB 231 - Enterprise JavaScript I</title>
+    
+        <link rel="stylesheet" type="text/css" href="../week-2/global.css" />
+        <link rel="stylesheet" type-="text/css" href="/week-9/Lubben-Ortiz-card-game.css">
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="/week-9/Lubben-Ortiz-card-game.css"
+        />
+    
+        <!--Google fonts for Oswald-->
+        <link
+          href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap"
+          rel="stylesheet"
+        />
+      </head>
+    
+      <body>
+        <div id="container">
+          <h1 class="app-header">Welcome to the Card Game!</h1>
+    
+          <div id="form-example">
+            <div class="card">
+              <div class="card-title" style="text-align: center; font-size: 20px; padding-left: 10px; color: ${faceColor}">Card Dealer </div>
+              <div class="card-content">
+                <span class="${suitIcon}" style="color: "${suitColor}"></span>
+            
+                </div>
+    
+                <script src="/week-9/week-9.js">
+              
+                </script>
+    
+                <div class="form-field">
+                  <button onclick="convert" class="btn btn-primary full-width">
+                    Deal Cards
+                  </button>
+                  <h1 id="res"></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div id="form-results-example">
+          <div class="card">
+            <div class="card-title">Shuffled Cards</div>
+          
+          </div>
+        </div>
+    
+        <script src="/week-3/week-3.js">
+          // 1. fetch the value from the input
+          // 2. convert it to celsius
+          // 3. display the number
+        </script>
+    
+        <!--Return anchor tag with JavaScript-->
+        <a href="http://127.0.0.1:5500/week-1/index.html" class="return-home"
+          >Return</a
+        >
+      </body>
+    </html>
+    
