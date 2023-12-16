@@ -1,0 +1,151 @@
+<!--
+    Title:payroll.html
+    Author: Mackenzie Lubben-Ortiz
+    Date: 08/20/2023
+    Description: Payroll app-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WEB 231 - Enterprise JavaScript I</title>
+
+  <link rel="stylesheet" type="text/css" href="http://127.0.0.1:5500/week-1/site.css">
+  <link rel="stylesheet" type="text/css" href="http://127.0.0.1:5500/week-2/global.css">
+
+  <!--Google fonts for Oswald-->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+
+<style>
+  ul {
+    list-style-type:
+    padding: 0px;
+    border: 1px dotted;
+    border-color: #ff0000;
+  }
+</style>
+
+<body>
+  <div id="container"></div>
+
+  <header>
+    <h1>Payroll System</h1>
+  </header>
+  <!--Employee Group 1-->
+  <h3>Employee record 1</h3>
+    <ul>
+      <li id="txtFirstNameLudwig" class="item">Ludwig</li>
+      <li id="txtLastNameBeethoven" class="item">Beethoven</li>
+      <li id="txtAddressLudwig" class="item">505 main street</li>
+      <li id="txtHireDate" class="item">12/9/2020</li>
+      <li id="txtPayRateLudwig" class="item">18.9</li>
+    </ul>
+
+    <!--JavaScript code for group 1-->
+    <script>
+      let txtFirstName = "Ludwig";
+      document.getElementById("txtFirstName").innerHTML = txtFirstName;
+
+       let txtLastName = "Beethoven";
+       document.getElementById("txtLastName").innerHTML = txtLastName;
+
+       let txtAddressLudwig = "505 main street";
+       document.getElementById("txtAddressLudwig").innerHTML = txtAddressLudwig;
+
+       let txtHireDate = "12/9/2020";
+       document.getElementById("txtHireDate").innerHTML = txtHireDate;
+
+       let txtPayRateLudwig = "18.9";
+       document.getElementById("txtPayRateLudwig").innerHTML = txtPayRate;
+
+       let num =18.9;
+       let n = num.toFixed(1);
+
+
+      </script>
+
+      <!--Employee Group 2-->
+    <h3>Employee record 2</h3>
+      <ul>
+        <li id="txtFirstNameJohann" class="item">Johann</li>
+        <li id="txtLastNameBach" class="item">Bach</li>
+        <li id="txtAdressJohann" class="item">512 main street</li>
+        <li id="txtHireDate" class="item">12/9/2020</li>
+        <li id="txtPayRateJohann" class="item">25.5</li>
+      </ul>
+
+      <!--JavaScript code for group 2-->
+    <script>
+      let txtFirstName = "Johann";
+      document.getElementById("txtFirstName").innerHTML = txtFirstName;
+
+       let txtLastName = "Bach";
+       document.getElementById("txtLastName").innerHTML = txtLastName;
+
+       let txtAddressLudwig = "512 main street";
+       document.getElementById("txtAddressJohann").innerHTML = txtAddressJohann;
+
+       let txtHireDate = "12/9/2020";
+       document.getElementById("txtHireDate").innerHTML = txtHireDate;
+
+       let txtPayRateJohann = "25.5";
+       document.getElementById("txtPayRateJohann").innerHTML = txtPayRate;
+
+       let num =25.5;
+       let n = num.toFixed(1);
+
+      </script>
+
+      <!--Employee Group 3-->
+      <h3>Employee record 3</h3>
+      <ul>
+        <li id="txtFirstNameWolfgang" class="item">Wolfgang</li>
+        <li id="txtLastName" class="item">Mozart</li>
+        <li id="txtAddressWolfgang" class="item">600 main street</li>
+        <li id="txtHireDate" class="item">12/9/2020</li>
+        <li id="txtPayRateWolfgang" class="item">50.1</li>
+      </ul>
+
+      <!--JavaScript code for group 3-->
+
+      <script>
+        let txtFirstName = "Wolfgang";
+        document.getElementById("txtFirstName").innerHTML = txtFirstName;
+
+         let txtLastName = "Mozart";
+         document.getElementById("txtLastName").innerHTML = txtLastName;
+
+         let txtAddressWolfgang = "600 main street";
+         document.getElementById("txtAddressWolfgang").innerHTML = txtAddressWolfgang;
+
+         let txtHireDate = "12/9/2020";
+         document.getElementById("txtHireDate").innerHTML = txtHireDate;
+
+         let txtPayRateWolfgang = "50.1";
+         document.getElementById("txtPayRateWolfgang").innerHTML = txtPayRate;
+
+         let num =50.1;
+         let n = num.toFixed(1);
+
+         const d = new Date("2020-12-09");
+         const dateStr = d.toLocaleDateString('en-US', {
+         timeZone: 'America/New_York'
+       } )
+       console.log(dateStr)
+
+        </script>
+
+    <!--Return anchor tag with JavaScript-->
+    <a href="http://127.0.0.1:5500/week-1/index.html" class="return-home">Return</a>
+
+
+</body>
+
+
+
+</body>
+</html>
